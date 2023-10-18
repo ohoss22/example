@@ -5,7 +5,7 @@ int main()
 {
         while(1)
         {
-                fprintf(stderr, "HelloWorld: this is a patch!");
+                fprintf(stderr, "HelloWorld");
                 sleep(1);
         }
         return 0;
