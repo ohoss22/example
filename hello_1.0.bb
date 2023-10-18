@@ -5,9 +5,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 PV = "1.0"
 PR = "r0"
 
-SRC_URI = "file://hello.c \
-           file://Makefile \
-          "
+SRC_URI = "git://github.com/ohoss22/example.git;protocol=https;branch=main"
 
 S = "${WORKDIR}"
 
